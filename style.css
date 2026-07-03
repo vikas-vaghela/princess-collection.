@@ -153,3 +153,25 @@ nav ul li a:hover { color: #27ae60; }
     background: #ff9aa2;
     color: white;
 }
+
+@media(max-width: 768px) {
+    .collection-banner {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .shop-now-btn {
+        position: relative !important; /* Absolute se hatakar relative kiya */
+        margin-top: 15px;            /* Banner aur button ke bich gap */
+        padding: 10px 20px !important; /* Button chhota kiya */
+        font-size: 14px !important;    /* Text size set kiya */
+        width: fit-content;           /* Width ko content ke hisaab se kiya */
+        margin-bottom: 10px;
+    }
+    
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+}
