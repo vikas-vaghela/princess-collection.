@@ -154,17 +154,22 @@ nav ul li a:hover { color: #27ae60; }
     .collection-banner {
         display: flex;
         flex-direction: column;
+        align-items: center; /* Center karne ke liye */
         position: relative;
     }
 
     .shop-now-btn {
-        position: relative !important; /* Absolute se hatakar relative kiya */
-        margin-top: 15px;            /* Banner aur button ke bich gap */
-        padding: 10px 20px !important; /* Button chhota kiya */
-        font-size: 14px !important;    /* Text size set kiya */
-        width: fit-content;           /* Width ko content ke hisaab se kiya */
-        margin-bottom: 10px;
+        position: relative !important; 
+        margin-top: 15px;            
+        padding: 12px 25px !important; /* Thoda size badhaya */
+        font-size: 16px !important;    
+        background: #ff9aa2 !important; /* Button ka color wapas laya */
+        color: white !important;       /* Text color white */
+        border-radius: 50px !important;
+        text-decoration: none !important;
+        display: inline-block;
     }
+}
     
     .banner-img {
         width: 100%;
